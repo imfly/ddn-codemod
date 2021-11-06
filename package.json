@@ -1,0 +1,27 @@
+{
+  "name": "ddn-codemod",
+  "version": "0.0.1",
+  "description": "ddn-codemod",
+  "bin": {
+    "ddn-codemod": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node ./test/run.js"
+  },
+  "keywords": [
+    "gogocode",
+    "ast"
+  ],
+  "main": "transform.js",
+  "author": "chibing",
+  "license": "ISC",
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "gogocode": "^1.0.31"
+  },
+  "dependencies": {
+    "gogocode-cli": "^0.2.20"
+  }
+}
